@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD5D41DC1F9180460078EC76 /* IngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5D41DB1F9180460078EC76 /* IngredientsViewController.swift */; };
+		CD6205D01F8F01B4002BD69F /* SizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6205CF1F8F01B4002BD69F /* SizeViewController.swift */; };
+		CD6205D21F8F0292002BD69F /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6205D11F8F0292002BD69F /* ConfirmViewController.swift */; };
+		CD6205D41F8F1839002BD69F /* DoughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6205D31F8F1839002BD69F /* DoughViewController.swift */; };
+		CD6205D61F8F188A002BD69F /* CheeseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6205D51F8F188A002BD69F /* CheeseViewController.swift */; };
 		CDEEA7C01F8C7DBF00B9EAF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEEA7BF1F8C7DBF00B9EAF1 /* AppDelegate.swift */; };
 		CDEEA7C21F8C7DBF00B9EAF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEEA7C11F8C7DBF00B9EAF1 /* ViewController.swift */; };
 		CDEEA7C51F8C7DBF00B9EAF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEEA7C31F8C7DBF00B9EAF1 /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD5D41DB1F9180460078EC76 /* IngredientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsViewController.swift; sourceTree = "<group>"; };
+		CD6205CF1F8F01B4002BD69F /* SizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeViewController.swift; sourceTree = "<group>"; };
+		CD6205D11F8F0292002BD69F /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		CD6205D31F8F1839002BD69F /* DoughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoughViewController.swift; sourceTree = "<group>"; };
+		CD6205D51F8F188A002BD69F /* CheeseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheeseViewController.swift; sourceTree = "<group>"; };
 		CDEEA7BC1F8C7DBF00B9EAF1 /* Pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDEEA7BF1F8C7DBF00B9EAF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDEEA7C11F8C7DBF00B9EAF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +70,11 @@
 				CDEEA7C61F8C7DBF00B9EAF1 /* Assets.xcassets */,
 				CDEEA7C81F8C7DBF00B9EAF1 /* LaunchScreen.storyboard */,
 				CDEEA7CB1F8C7DBF00B9EAF1 /* Info.plist */,
+				CD6205CF1F8F01B4002BD69F /* SizeViewController.swift */,
+				CD6205D31F8F1839002BD69F /* DoughViewController.swift */,
+				CD6205D51F8F188A002BD69F /* CheeseViewController.swift */,
+				CD5D41DB1F9180460078EC76 /* IngredientsViewController.swift */,
+				CD6205D11F8F0292002BD69F /* ConfirmViewController.swift */,
 			);
 			path = Pizza;
 			sourceTree = "<group>";
@@ -137,7 +152,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDEEA7C21F8C7DBF00B9EAF1 /* ViewController.swift in Sources */,
+				CD6205D41F8F1839002BD69F /* DoughViewController.swift in Sources */,
+				CD6205D01F8F01B4002BD69F /* SizeViewController.swift in Sources */,
+				CD6205D61F8F188A002BD69F /* CheeseViewController.swift in Sources */,
+				CD5D41DC1F9180460078EC76 /* IngredientsViewController.swift in Sources */,
 				CDEEA7C01F8C7DBF00B9EAF1 /* AppDelegate.swift in Sources */,
+				CD6205D21F8F0292002BD69F /* ConfirmViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
